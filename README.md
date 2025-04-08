@@ -21,6 +21,8 @@ The following class diagram illustrates the structure of the application
 
 See [docs/class-diagram.puml](docs/class-diagrama.puml) for the source code of the diagram.
 
+## User stories
+In [docs/users-stories.md](docs/user-stories.md) the documentation folder, you can find the user stories that describe the functionality of the application. The user stories are written in a simple format and can be easily understood by non-technical stakeholders.
 # Usage
 Run the application using the following command:
 

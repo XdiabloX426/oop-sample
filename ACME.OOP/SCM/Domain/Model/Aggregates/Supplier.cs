@@ -9,7 +9,7 @@ namespace ACME.OOP.SCM.Domain.Model.Aggregates;
 /// <param name="name">The name of the supplier</param>
 /// <param name="address">Tbe address of the supplier. See <see cref="Address"/>></param>
 /// <exception cref="ArgumentNullException">Thrown when any of the parameters are null.</exception>>
-public class Aggregates(string identifier, string name, Address address)
+public class Supplier(string identifier, string name, Address address)
 {
     public string Identifier { get; } = identifier ?? throw new ArgumentNullException(nameof(identifier));
     public string Name { get; } = name ?? throw new ArgumentNullException(nameof(name));
